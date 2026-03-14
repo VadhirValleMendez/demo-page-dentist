@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lleva tu empresa o negocio al mundo digital con una página web profesional.">
+    <title> Página Web Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="Inicio">
+                <span class="logo-text">Página Demo</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="mainNav" role="navigation">
+                <a href="#quienes-somos">Quiénes Somos</a>
+                <a href="#nuestras-opciones">Opciones</a>
+                <a href="#caracteristicas">Características</a>
+                <a href="#contacto" class="nav-cta">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" aria-label="Portada">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-eyebrow">Presencia Digital</span>
+            <h1>Tu Empresa<br><em>en el Mundo</em><br>Digital</h1>
+            <p class="hero-sub">Diseño la página web que tu negocio merece — rápida, elegante y lista para crecer.</p>
+            <a href="#contacto" class="btn btn-hero">
+                Empieza ahora
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+        <div class="hero-scroll-hint" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===== QUIÉNES SOMOS ===== -->
+    <section id="quienes-somos" aria-labelledby="somos-heading">
+        <div class="container somos-grid">
+            <div class="somos-img" role="img" aria-label="Nuestro equipo de trabajo"></div>
+            <div class="somos-texto">
+                <span class="section-tag">Sobre Nosotros</span>
+                <h2 id="somos-heading">¡Explícale al mundo quién eres!</h2>
+                <p>Soy un desarrollador web apasionado por transformar ideas en experiencias digitales memorables. Cada proyecto lo trato como si fuera propio: con cuidado y cariño.</p>
+                <p>Desde el primer boceto hasta el lanzamiento, te acompaño en cada paso del camino para que tu presencia en línea sea tan poderosa como tu visión.</p>
+                <a href="#contacto" class="btn btn-outline">Conócenos mejor →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NUESTRAS OPCIONES ===== -->
+    <section id="nuestras-opciones" aria-labelledby="opciones-heading">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag section-tag--light">Lo que hacemos</span>
+                <h2 id="opciones-heading">Nuestras Opciones</h2>
+                <p class="section-subtitle">Soluciones digitales diseñadas para cada etapa de tu negocio.</p>
+            </div>
+            <div class="opciones">
+                <article class="carta carta--1">
+                    <div class="carta-body">
+                        <span class="carta-numero">01</span>
+                        <h3>Opción 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, deleniti. Odio veritatis voluptates quam quia eos molestias quasi dicta facere debitis, alias est, maiores eaque soluta, officia sint accusamus. Iure!</p>
+                    </div>
+                </article>
+                <article class="carta carta--2">
+                    <div class="carta-body">
+                        <span class="carta-numero">02</span>
+                        <h3>Opción 2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, optio? Cupiditate minus nam illo dolorum, aut provident eius reiciendis, dicta, aperiam voluptates consequuntur delectus cum. Sequi eligendi quae delectus voluptatem!</p>
+                        <a href="#contacto" class="carta-link">Ver más →</a>
+                    </div>
+                </article>
+                <article class="carta carta--3">
+                    <div class="carta-body">
+                        <span class="carta-numero">03</span>
+                        <h3>Opción 3</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis rerum soluta at! Quidem officiis asperiores quos explicabo reiciendis consectetur et, minus ex quasi molestiae necessitatibus, amet consequatur ad omnis alias!</p>
+                        <a href="#contacto" class="carta-link">Ver más →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CARACTERÍSTICAS ===== -->
+    <section id="caracteristicas" aria-labelledby="caract-heading">
+        <div class="container caract-grid">
+            <div class="caract-texto">
+                <span class="section-tag">Por qué elegirnos</span>
+                <h2 id="caract-heading">Todo lo que necesitas, sin complicaciones</h2>
+                <ul class="caract-lista" role="list">
+                    <li>
+                        <span class="check-icon" aria-hidden="true">✓</span>
+                        <div>
+                            <strong>Diseño 100% Responsivo</strong>
+                            <span>Se ve perfecto en celular, tablet y escritorio.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check-icon" aria-hidden="true">✓</span>
+                        <div>
+                            <strong>Optimizado para Google</strong>
+                            <span>SEO técnico incluido desde el primer día.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check-icon" aria-hidden="true">✓</span>
+                        <div>
+                            <strong>Carga Ultra Rápida</strong>
+                            <span>Páginas ligeras que no pierden clientes por lentitud.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="check-icon" aria-hidden="true">✓</span>
+                        <div>
+                            <strong>Soporte y Mantenimiento</strong>
+                            <span>No te dejo solo: si lo necesitas, te doy actualizaciones y soporte continuo.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="caract-img" role="img" aria-label="Ejemplo de diseño responsivo"></div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" aria-labelledby="contacto-heading">
+        <div class="contacto-inner">
+            <span class="section-tag section-tag--light">Hablemos</span>
+            <h2 id="contacto-heading">¿Listo para brillar<br>en el mundo digital?</h2>
+            <p>Da el primer paso hoy. Escríbeme por WhatsApp y ponemos en marcha tu idea.</p>
+            <a href="https://wa.me/527471856179" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" aria-label="Contactar por WhatsApp">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contáctame por WhatsApp
+            </a>
+        </div>
+        <div class="contacto-deco" aria-hidden="true">
+            <div class="deco-circle deco-circle--1"></div>
+            <div class="deco-circle deco-circle--2"></div>
+            <div class="deco-circle deco-circle--3"></div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container footer-inner">
+            <p class="footer-logo">Vadallem</p>
+            <p class="footer-copy">© 2025 Vadallem. Diseñado con ♥ por <a href="https://instagram.com/vaaadhir" target="_blank" rel="noopener noreferrer">@vaaadhir</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // ── Nav toggle (hamburger) ──────────────────────────────
+        const toggle = document.getElementById('navToggle');
+        const nav    = document.getElementById('mainNav');
+
+        toggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('is-open');
+            toggle.classList.toggle('is-open', open);
+            toggle.setAttribute('aria-expanded', open);
+        });
+
+        // Close nav when a link is clicked
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('is-open');
+                toggle.classList.remove('is-open');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // ── Sticky header shadow ────────────────────────────────
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 30);
+        }, { passive: true });
+
+        // ── Fade-in on scroll ───────────────────────────────────
+        const fadeEls = document.querySelectorAll(
+            '.somos-img, .somos-texto, .carta, .caract-texto, .caract-img, .caract-lista li'
+        );
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('visible');
+                    observer.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+        fadeEls.forEach((el, i) => {
+            el.style.transitionDelay = `${(i % 4) * 80}ms`;
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
